@@ -62,7 +62,7 @@ app.get("/add", (req,res) => {
     } catch(error) { 
         console.error(error)
         res.status(500).json({statuscocde:500, msg: error.toString() })
-      }
+    }
 });
 
 
